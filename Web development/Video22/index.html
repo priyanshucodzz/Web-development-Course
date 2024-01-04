@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            box-sizing: border-box;
+            border: 2px solid black;
+            /*width: 2048px*/
+            width: 80vw;
+            height: 10vh;
+            margin: auto;
+            background-color: aquamarine;
+        }
+
+        .container {
+            box-sizing: border-box;
+            border: 2px solid rgb(238, 10, 10);
+            /*width: 2048px*/
+            /* width: 80dvw;*/
+            width: 50%;
+            height: 200vh;
+            margin: 23px auto;
+            font-size: 18px;
+            background-color: aquamarine;
+        }
+
+        .container p {
+            font-size: 2em;
+        }
+        .container > div{
+            font-size: 2em; 
+            border: 2px solid red;
+            width: 50%;
+        }
+
+        .container > div > div{
+            border: 2px solid blue;
+            width: 50%;
+        }
+        .mycont {
+            border: 2px solid black;
+            box-sizing: border-box;
+            margin: 23px auto;
+            color: rgb(0, 0, 0);
+            font-size: 22px;
+            /* width: 100vmin; */
+            width: 80vw;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        This is a box.
+    </div>
+    <div class="container">
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, provident? Rem, eaque. Tenetur eligendi quasi
+            reiciendis? Nulla vitae sequi et, voluptates totam qui cumque magni temporibus. Laborum consectetur optio
+            nisi.</div>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati odit, laudantium cumque magnam neque harum
+        in? Ab sapiente exercitationem eum neque quam dolor iste numquam dolorem eaque quia voluptate eos at non
+        expedita fuga quidem ratione, minima nesciunt deserunt a vero consectetur! Aliquam dolores fugiat expedita optio
+        quibusdam temporibus nulla mollitia vel! Mollitia iste adipisci iusto?
+    </div>
+    <div class="mycont">
+        I am another container
+    </div>
+</body>
+
+</html>

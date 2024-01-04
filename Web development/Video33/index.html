@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex-4 Multi Color Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+
+        :root {
+            --primary-color: rgb(126, 17, 162);
+            --text-color:white;
+            --secondary-color: rgb(216, 164, 233);
+        }
+        body{
+            background-color: var(--secondary-color);
+        }
+
+        ul li {
+            list-style: none;
+            display: inline;
+            margin: 4px;
+            padding: 13px;
+            font-weight: bolder;
+            color: var(--text-color);
+        }
+
+        nav {
+            background-color: var(--primary-color);
+            padding: 12px 0;
+        }
+
+        ul li:first-child {
+            background-color: var(--color);
+        }
+        ul li a{
+            color: var(--text-color);
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>
